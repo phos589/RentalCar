@@ -1,0 +1,97 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bar {
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid black;
+}
+.mainBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.mainBar div,
+.signIn div {
+  margin: 10px;
+}
+p{
+  font-size: smaller;
+}
+.Register{
+  padding: 10px;
+  background: orangered;
+  color: white;
+  cursor: pointer;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1,h4,span{
+font-weight: bold;
+}
+.learnMore{
+  background: black;
+  color: aliceblue;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.infoMain{
+  max-width: 500px;
+  cursor: pointer;
+}
+.booking-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 20px;
+  margin-top: 400px;
+  border-radius: 5px;
+}
+
+.booking-option {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.option-icon {
+  font-size: 24px;
+  margin: 10px;
+  color: #3498db;
+}
+
+.option-text {
+  font-size: 18px;
+}
+.option{
+  margin-top: 10px;
+  border: none;
+  color: gray;
+}
+.search-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #333;
+}

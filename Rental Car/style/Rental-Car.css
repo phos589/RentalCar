@@ -35,6 +35,8 @@ p{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 h1,h4,span{
 font-weight: bold;
@@ -57,21 +59,24 @@ font-weight: bold;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 20px;
-  margin-top: 400px;
   border-radius: 5px;
+  margin-bottom: 200px;
 }
 
 .booking-option {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 10px;
+  margin: 50px;
 }
 
 .option-icon {
   font-size: 24px;
   margin: 10px;
   color: #3498db;
+}
+.h3{
+  margin-left: 150px;
 }
 
 .option-text {
@@ -94,4 +99,107 @@ font-weight: bold;
 
 .search-button:hover {
   background-color: #333;
+}
+.RentalInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+.RentalInfoMain{
+  display: flex;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+}
+.info img{
+  max-width: 100px;
+}
+.info p {
+  text-align: center;
+  max-width: 200px;
+}
+
+.rent div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rentalModel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rentalModel button{
+  display: flex;
+   margin-left: 10px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: #2e3031;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #7c7e80;
+  transform: scale(1.1);
+}
+.info-box{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.box-element {
+  padding: 10px;
+  margin: 10px;
+  color: rgb(8, 8, 8);
+  border: 1px solid;
+}
+.lastInfo{
+  margin-top: 100px;
+  min-width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #000000;
+}
+.infoText{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-left: 300px;
+
+}
+.infoText button{
+  max-width: 30%;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #2e3031;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.infoText button:hover{
+  background-color: #7c7e80;
+  transform: scale(1.1);
+}
+.section{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
 }

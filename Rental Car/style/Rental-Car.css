@@ -166,7 +166,7 @@ font-weight: bold;
   border: 1px solid;
 }
 .lastInfo{
-  margin-top: 100px;
+  margin-top: 300px;
   min-width: 100%;
   color: white;
   display: flex;
@@ -179,6 +179,7 @@ font-weight: bold;
   flex-direction: column;
   align-content: flex-start;
   margin-left: 300px;
+  max-width: 40%;
 
 }
 .infoText button{
@@ -202,4 +203,118 @@ font-weight: bold;
   display: flex;
   align-items: center;
   margin-top: 100px;
+}
+.price{
+  width: 100px;
+}
+.box{
+  display: flex;
+  align-items: center;
+}
+.box img{
+  margin: 10px;
+}
+.infoText p{
+  max-width: 50%;
+}
+.box1{
+  max-width: 40%;
+}
+.Reviews{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.reviewInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 45%;
+  margin-left: 30%;
+}
+.Review{
+  display: flex; 
+  align-items: center;
+}
+.Review img {
+  border-radius: 50%; 
+  width: 90px; 
+  height: 90px; 
+  object-fit: cover;
+}
+.Profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Profile img,p,h3{
+  margin: 10px;
+}
+.Review{
+  max-width: 50%;
+  margin-top: 100px;
+}
+.section1{
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70%;
+  margin-left: 20%;
+}
+.section1 p{
+  max-width: 70%;
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.question {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #000000;
+  color: #e0e0e0;
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.question:hover {
+  background-color: #161616bb;
+}
+
+.answer {
+  display: none;
+  padding: 10px;
+  background: transparent;
+  color: rgb(0, 0, 0);
+}
+.section-end{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.search-end h6{
+  font-weight: bold;
+}
+.info-box{
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+}
+.info-box p{
+  max-width: 50%;
+}
+.info-box input{
+  margin: 10px;
 }

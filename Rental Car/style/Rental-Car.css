@@ -36,7 +36,7 @@ p{
   align-items: center;
   flex-wrap: wrap;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 h1,h4,span{
 font-weight: bold;
@@ -87,7 +87,8 @@ font-weight: bold;
   border: none;
   color: gray;
 }
-.search-button {
+.searchButton,
+.searchButton1 {
   display: inline-block;
   padding: 10px 20px;
   background-color: black;
@@ -97,7 +98,7 @@ font-weight: bold;
   cursor: pointer;
 }
 
-.search-button:hover {
+.searchButton:hover {
   background-color: #333;
 }
 .RentalInfo{
@@ -207,6 +208,7 @@ font-weight: bold;
   display: flex;
   align-items: center;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .price{
   width: 100px;
@@ -298,6 +300,7 @@ font-weight: bold;
   display: none;
   padding: 10px;
   background: transparent;
+  border: 1px solid gray;
   color: rgb(0, 0, 0);
 }
 .section-end{

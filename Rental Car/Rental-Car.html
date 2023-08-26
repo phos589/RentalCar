@@ -38,10 +38,10 @@
       <div class="booking-options">
         <div class="booking-option">
           <div class="option-text">Choose your car model</div>
-          <select class="option">
+          <select class="option" id="carModel">
             <option>Select a car model</option>
-            <option>Car Model 1</option>
-            <option>Car Model 2</option>
+            <option>Mercedes-Benz S-Class</option>
+            <option>Porsche 911</option>
             <option>Car Model 3</option>
         </select>
         </div>
@@ -55,28 +55,28 @@
       </div>
         <div class="booking-option">
             <div class="option-text">Provide your personal details</div>
-            <input type="tel" placeholder="Phone Number" class="option">
+            <input type="tel" placeholder="Phone Number" class="option" id="Number">
         </div>
         <div class="booking-option">
           <div class="option-text">Select pick-up location</div>
-          <select class="option">
+          <select class="option" id="piceUpLocation">
               <option>Select a pick-up location</option>
-              <option>Location A</option>
-              <option>Location B</option>
-              <option>Location C</option>
+              <option>Aeroville</option>
+              <option>Cerulean</option>
+              <option>Echovale</option>
           </select>
       </div>
       <div class="booking-option">
           <div class="option-text">Select drop-off location</div>
-          <select class="option">
+          <select class="option" id="dropOffLocation">
               <option>Select a drop-off location</option>
-              <option>Location X</option>
-              <option>Location Y</option>
-              <option>Location Z</option>
+              <option>Aeroville</option>
+              <option>Cerulean</option>
+              <option>Echovale</option>
           </select>
       </div>
       <div class="booking-option">
-        <button class="search-button">Search</button>
+        <button class="searchButton">Search</button>
     </div>
     </div>
 
@@ -112,15 +112,17 @@
       </div>
         <div class="rentalModel rentalModel-js">
           <div class="info-box">
-            <button class="button">Mercedes</button>
-            <button class="button">Porsche</button>
+            <button class="button">Mercedes-Benz</button>
+            <button class="button">Porsche 911</button>
+            <button class="button">Honda Civic</button>
+            <button class="button">Volkswagen Jetta</button>
           </div>
           <div>
             <img src="image/Model/Mercedes.png" id="carImage" class="ModelCar"> 
           </div>
           <div>
             <div class="info-box">
-              <div class="box-element" id="modelModel">Model: Mercedes-Benz S-Class</div>
+              <div class="box-element" id="modelModel">Model: Mercedes-Benz</div>
               <div class="box-element" id="modelName">Mark: Mercedes</div>
               <div class="box-element" id="modelYear">Year: 2021</div>
               <div class="box-element" id="modelAC">AC: Yes</div>
@@ -221,8 +223,8 @@
       <div class="info-box1">
         <h3>Subscription</h3>
         <h6>Subscribe your email address for latest news & updates.</h6>
-        <input type="email" placeholder="Enter Email">
-        <button class="search-button">Submit</button>
+        <input type="email" id="emailInput" placeholder="Enter Email">
+        <button class="searchButton1">Submit</button>
       </div>
     </div>
 

@@ -1,6 +1,6 @@
 export const models = [{
   img: '../image/Model/Mercedes.png',
-  model: 'Mercedes-Benz S-Class',
+  model: 'Mercedes-Benz',
   Mark:'Mercedes',
   Year:'2021',
   AC: 'Yes',
@@ -13,6 +13,26 @@ export const models = [{
   model: 'Porsche 911',
   Mark:'Porsche',
   Year:'2019',
+  AC: 'Yes',
+  Trabsmission:'Automatuc',
+  fule:'disel',
+
+},
+{
+  img: '../image/Model/Civic.png',
+  model: 'Honda Civic',
+  Mark:'Honda',
+  Year:'2016',
+  AC: 'Yes',
+  Trabsmission:'Automatuc',
+  fule:'disel',
+
+},
+{
+  img: '../image/Model/Volkswagenjetta.png',
+  model: 'Volkswagen Jetta',
+  Mark:'Volkswagen',
+  Year:'2023',
   AC: 'Yes',
   Trabsmission:'Automatuc',
   fule:'disel',

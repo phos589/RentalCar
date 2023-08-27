@@ -14,7 +14,7 @@ export const models = [{
   Mark:'Porsche',
   Year:'2019',
   AC: 'Yes',
-  Trabsmission:'Automatuc',
+  Trabsmission:'Manual',
   fule:'disel',
 
 },
@@ -34,7 +34,27 @@ export const models = [{
   Mark:'Volkswagen',
   Year:'2023',
   AC: 'Yes',
-  Trabsmission:'Automatuc',
+  Trabsmission:'Manual',
+  fule:'disel',
+
+},
+{
+  img: '../image/Model/ChevroletEquinox.png',
+  model: 'Chevrolet Equinox',
+  Mark:'Chevrolet',
+  Year:'2023',
+  AC: 'Yes',
+  Trabsmission:'Manual',
+  fule:'disel',
+
+},
+{
+  img: '../image/Model/HondaAccord.png',
+  model: 'Honda Accord',
+  Mark:'Honda',
+  Year:'2020',
+  AC: 'Yes',
+  Trabsmission:'Manual',
   fule:'disel',
 
 }

@@ -3,7 +3,7 @@ export const models = [{
   model: 'Mercedes-Benz',
   Mark:'Mercedes',
   Year:'2021',
-  AC: 'Yes',
+  AC: '$17',
   Trabsmission:'Automatuc',
   fule:'electric',
 
@@ -13,7 +13,7 @@ export const models = [{
   model: 'Porsche 911',
   Mark:'Porsche',
   Year:'2019',
-  AC: 'Yes',
+  AC: '$19',
   Trabsmission:'Manual',
   fule:'disel',
 
@@ -23,7 +23,7 @@ export const models = [{
   model: 'Honda Civic',
   Mark:'Honda',
   Year:'2016',
-  AC: 'Yes',
+  AC: '$20',
   Trabsmission:'Automatuc',
   fule:'disel',
 
@@ -33,7 +33,7 @@ export const models = [{
   model: 'Volkswagen Jetta',
   Mark:'Volkswagen',
   Year:'2023',
-  AC: 'Yes',
+  AC: '$20',
   Trabsmission:'Manual',
   fule:'disel',
 
@@ -43,7 +43,7 @@ export const models = [{
   model: 'Chevrolet Equinox',
   Mark:'Chevrolet',
   Year:'2023',
-  AC: 'Yes',
+  AC: '$16',
   Trabsmission:'Manual',
   fule:'disel',
 
@@ -53,7 +53,7 @@ export const models = [{
   model: 'Honda Accord',
   Mark:'Honda',
   Year:'2020',
-  AC: 'Yes',
+  AC: '$17',
   Trabsmission:'Manual',
   fule:'disel',
 

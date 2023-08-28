@@ -36,7 +36,7 @@ buttons.forEach(button => {
       modelModel.textContent = `Model: ${selectedModel.model}`;
       modelNameElement.textContent = `Mark: ${selectedModel.Mark}`;
       modelYearElement.textContent = `Year: ${selectedModel.Year}`;
-      modelACElement.textContent = `AC: ${selectedModel.AC}`;
+      modelACElement.textContent = `rent per day: ${selectedModel.AC}`;
       modelTransmissionElement.textContent = `Transmission: ${selectedModel.Trabsmission}`;
       modelFuelElement.textContent = `Fuel: ${selectedModel.fule}`;
     }

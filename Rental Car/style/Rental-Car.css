@@ -33,6 +33,10 @@ p{
   color: white;
   cursor: pointer;
 }
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
 
 .main{
   display: flex;
